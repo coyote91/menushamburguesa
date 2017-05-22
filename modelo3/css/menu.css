@@ -1,0 +1,105 @@
+body{
+
+background:#252528;
+
+}
+
+.menu{
+
+ list-style-type: none;
+ line-height: 43px;
+ /*outline: 1px solid red; */
+padding-left: 0px;
+width:15em;
+margin:2em auto;
+}
+
+.menu a {
+
+color:#ddd;
+text-decoration: none;
+text-transform: uppercase;
+
+/*me permitira dar click en todo el espacio*/
+display: block;
+width: auto;
+}
+
+.menu a:hover{
+
+margin-left: 1em;
+
+--webkit-transition: all .5s;
+-moz-transition: all .5s;
+-ms-transition: all .5s;
+-o-transition: all .5s;
+transition: all .5s;
+
+}
+
+.menu li {
+
+/*outline: 1px solid cyan;*/
+/*border-left: 1px solid rgba(255,255,255, .2); */
+
+/* box-shadow: x  y  rgba() inset */
+
+box-shadow: 1px 0px rgba(255,255,255,.2) inset;
+margin-bottom: 3px;
+padding-left: 1.5em;
+
+--webkit-transition: all .5s;
+-moz-transition: all .5s;
+-ms-transition: all .5s;
+-o-transition: all .5s;
+transition: all .5s;
+
+
+
+}
+
+.menu li:hover{
+
+box-shadow: 15em 0px rgba(255,255,255,.2) inset;
+
+
+}
+
+nav{
+
+}
+
+.mostrar{
+background: rgba(0,0,0,.8);
+position: absolute;
+top:0px;
+z-index: 20;
+height: 100%;
+padding-right: .25em;
+padding-top: 4em;
+display: none;
+left: 0px;
+
+
+}
+
+
+/****
+
+boton menu
+
+****/
+
+#mostrarnav{
+
+width:50px;
+height:50px;
+position: absolute;
+top: 2em;
+left: 1em;
+z-index: 30;
+background: url("../img/menu.png");
+background-size: 50px 50px;
+cursor: pointer;
+
+}

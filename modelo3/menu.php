@@ -9,7 +9,7 @@
 
 <script>
 
-	function mostrar()
+	/*function mostrar()
 	{
 
 
@@ -28,8 +28,26 @@
             mostrar.style.display = "none";
         }
 
+	}*/
+
+
+	function mostrar()
+	{
+		document.getElementById("mostrar").style.display="block";
+
 	}
 
+	window.addEventListener('mouseup', function(event)
+	{
+
+	  var box = document.getElementById('mostrar');
+	   if(event.target != box && event.target.parentNode != box)
+	   {
+	   	  box.style.display = 'none';
+
+	   }
+
+	});
 </script>
 
 </head>

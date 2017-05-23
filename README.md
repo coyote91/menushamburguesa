@@ -13,3 +13,6 @@ añado estilo de menu hamburguesa que tiene flecha que apunta a la derecha y el 
 #modelo3 :
 
 añado tercer modelo de menu con codigo javascript
+
+añado codigo javascript que permite cerrar el menu de opciones al sac…
+…ar el mause del contorno.

@@ -16,3 +16,7 @@ añado tercer modelo de menu con codigo javascript
 
 añado codigo javascript que permite cerrar el menu de opciones al sac…
 …ar el mause del contorno.
+
+#modelo 4 :  
+
+añado cuarto modelo de menu, el mismo diseño de codigofacilito.com, el menu todavia no cuenta con el codigo javascript funcionando sin embargo tiene el archivo con el codigo esencial.

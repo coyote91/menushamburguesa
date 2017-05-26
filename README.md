@@ -23,3 +23,6 @@ añado cuarto modelo de menu, el mismo diseño de codigofacilito.com, el menu to
 
 
 añado codigo javascript DOM sin jquery que permite reemplazar funciones de jquery y abrir y cerrar el menu con solo dar click.
+
+
+edito el css y ubico el contenedor del menu con opciones al lado derecho

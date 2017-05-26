@@ -5,19 +5,46 @@
     <title></title>
 
 <link rel="stylesheet" href="./css/style.css">
-<script src="./js/menu.js" charset="utf-8"></script>
+<!--<script src="./js/menu.js" charset="utf-8"></script> -->
+
+<script type="text/javascript">
+
+function mostrar()
+{
+  //https://www.funcion13.com/anade-y-quita-clases-css-con-javascript-con-classlist/
+
+  var open = document.getElementById("user-data").classList.contains('open');
+  var tcon_transform = document.getElementById("open_user_data").classList.contains("tcon-transform");
+
+        if (open && tcon_transform )
+        {
+                 document.getElementById("user-data").classList.remove('open');
+                         document.getElementById("open_user_data").classList.remove("tcon-transform");
+
+
+        }
+        else {
+                document.getElementById("user-data").classList.add('open');
+                document.getElementById("open_user_data").classList.add("tcon-transform");
+        }
+
+}
+
+
+
+</script>
 
   </head>
   <body>
                                                                 <!--  tcon-transform   hace que salga la X del menu hamburguesa cuando las opciones son visibles    --->
-    <button aria-label="toggle menu" class="tcon tcon-menu--xbutterfly absolute " id="open_user_data" style="left:1em;top:1.7em;" type="button">
+    <button onclick="mostrar();" aria-label="toggle menu" class="tcon tcon-menu--xbutterfly absolute " id="open_user_data" style="left:1em;top:1.7em;" type="button">
     <span aria-hidden="true" class="tcon-menu__lines"></span>
     <span class="tcon-visuallyhidden"></span>
     </button>
 
                                               <!---  open  si lo quito oculta el menu opciones, hace que las opciones sean visibles -->
 
-    <div id="user-data" class="absolute z-depth-2 white open" data-open="true" data-turbolinks-permanent="" style="height: 956px; top: 71px;">
+    <div id="user-data" class="absolute z-depth-2 white" data-open="true" data-turbolinks-permanent="" style="height: 956px; top: 71px;">
         <div>
             <nav>
                 <ul class="no-list collection main-nav">

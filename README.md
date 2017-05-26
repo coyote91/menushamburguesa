@@ -20,3 +20,6 @@ añado codigo javascript que permite cerrar el menu de opciones al sac…
 #modelo 4 :  
 
 añado cuarto modelo de menu, el mismo diseño de codigofacilito.com, el menu todavia no cuenta con el codigo javascript funcionando sin embargo tiene el archivo con el codigo esencial.
+
+
+añado codigo javascript DOM sin jquery que permite reemplazar funciones de jquery y abrir y cerrar el menu con solo dar click.

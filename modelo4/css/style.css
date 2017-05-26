@@ -138,7 +138,8 @@ button {
 
 
 #user-data.open {
-    left: 0px;
+    /*left: 0px;*/
+    right: 0px;
     box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
 }
 
@@ -146,8 +147,10 @@ button {
 #user-data {
 	z-index: 1000;
 	width: 200px;
-	left: -200px;
-	transition: left 0.4s;
+
+	/*left: -200px;*/
+  right:  -325px ;
+	transition: right 0.4s;
 	position: fixed;
 	box-shadow: none !important;
 }

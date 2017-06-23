@@ -37,10 +37,14 @@ function mostrar()
   </head>
   <body>
                                                                 <!--  tcon-transform   hace que salga la X del menu hamburguesa cuando las opciones son visibles    --->
-    <button onclick="mostrar();" aria-label="toggle menu" class="tcon tcon-menu--xbutterfly absolute " id="open_user_data" style="left:1em;top:1.7em;" type="button">
-    <span aria-hidden="true" class="tcon-menu__lines"></span>
-    <span class="tcon-visuallyhidden"></span>
-    </button>
+
+
+  <button onclick="mostrar();" aria-label="toggle menu" class="tcon tcon-menu--xbutterfly absolute " id="open_user_data" type="button">
+  <span aria-hidden="true" class="tcon-menu__lines"></span>
+  <span class="tcon-visuallyhidden"></span>
+  </button>
+
+
 
                                               <!---  open  si lo quito oculta el menu opciones, hace que las opciones sean visibles -->
 

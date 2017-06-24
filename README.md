@@ -35,4 +35,8 @@ mejoro el codigo
 
 añado modelo de menu hamburguesa en la parte izquierda se adecua el ancho del menu de opciones al dar click en el menu hamburguesa de acuerdo al contenido de la pagina, usa overlay en toda la pagina un fondo transparente. 
 
+#modelo 6 : 
+
+añado modelo de menu hamburguesa en la parte derecha, al igual quel modelo cinco añadi el codigo javascript que permite cerrar el menu al dar click en cualquier parte y tambien en la x del menu.
+
 
